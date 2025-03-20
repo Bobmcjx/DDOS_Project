@@ -1,4 +1,3 @@
-
 import threading
 import tkinter as tk
 from tkinter import filedialog
@@ -32,11 +31,11 @@ def show_start_page():
 
     # Create the start page
     start_screen = tk.Tk()
-    start_screen.title("DDOS Analysis Kit")
+    start_screen.title("Foreign Language")
     start_screen.geometry("500x600")
 
     # Add image to the top of the screen
-    start_image = Image.open("DDoS.png")
+    start_image = Image.open("logo.png")
     start_image = start_image.resize((150, 150))
     start_photo = ImageTk.PhotoImage(start_image)
     start_image_label = tk.Label(start_screen, image=start_photo)

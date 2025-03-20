@@ -45,8 +45,9 @@ def show_start_page():
 
 
     #Image label
-    img=ImageTk.PhotoImage(Image.open("images/DDoS.png"))
-    image_label = tk.Label(page1, image=img)
+    img=Image.open("ddos1.png")
+    image=ImageTk.PhotoImage(img)
+    image_label = tk.Label(page1, image=image)
     image_label.pack()
 
     #progress bar
