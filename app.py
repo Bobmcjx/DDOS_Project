@@ -43,7 +43,7 @@ def show_start_page():
     start_image_label.pack()
 
     # Create title label
-    title_label = tk.Label(start_screen, text="DDOS Attack", font=("Helvetica", 20))
+    title_label = tk.Label(start_screen, text="DDOS Analysis", font=("Helvetica", 20))
     title_label.pack(pady=10)
 
     # Create an indeterminate progress bar
